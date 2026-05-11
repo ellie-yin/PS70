@@ -1,5 +1,5 @@
 body {
-    font: 20px "Gill Sans", Verdana, sans-serif;
+    font: 20px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
     line-height: 1.8;
     color: #000000;
     background-color: #89644d8a;
@@ -103,4 +103,15 @@ code {
 
 #aboutme {
   padding: 20px;
+}
+
+pre {
+  background-color: #89644d8a;
+  padding: 12px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+code {
+  background-color: transparent;
 }
